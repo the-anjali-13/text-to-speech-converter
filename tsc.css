@@ -1,0 +1,67 @@
+body{
+    background: linear-gradient(30deg, #060b5a,#6c0894);
+    background-size: 150% 150%;
+    animation: waveGradient 2s ease-in-out infinite alternate;
+    height:100vh;
+}
+
+@keyframes waveGradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+.contain-bx{
+    height:100%;
+    width:100%;
+}
+.heading{
+    color:white;
+    font-family: Arial Narrow Bold;
+    font-size: 50px;
+    /* font-weight: bold; */
+    font-style: italic;
+}
+.textplace{
+    border-radius: 10px;
+    background-color: rgba(240, 248, 255, 0.31);
+    padding:15px;
+    color:white;
+    font-weight: bold;
+    font-style: italic;
+    border:2px, dashed ,white;
+}
+textarea::placeholder {
+    color: #ffffff; /* Purple shade */
+    opacity: 1;
+}
+.dropdown{
+    width:70%;
+    height:40px;
+    background-color: rgba(240, 248, 255, 0.31);
+    border-radius: 30px;
+    margin-right:20px;
+    border:1px, solid ,white;
+}
+.listen-btn{
+    width:20%;
+    height:40px;
+    background-color:red;
+    color:white;
+}
+#voices{
+    color:rgb(0, 0, 0);
+    padding-left:10px;
+    background-color: rgba(255, 255, 255, 0.574);
+    font-style: italic;   
+}
+
+.credits{
+    color:white;
+    font-size:15px;
+    font-style:italic;
+    margin-top:80px;
+}
